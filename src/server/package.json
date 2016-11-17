@@ -1,0 +1,22 @@
+{
+    "name": "jsblog",
+    "version": "0.0.1",
+    "description": "Test Node.JS Application",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "prod": "node index.js"
+    },
+    "author": "N1PhANtoM",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/N1PhANtoM/JSBlog.git"
+    },
+    "dependencies": {
+        "express": "^4.14.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
